@@ -1,0 +1,14 @@
+.table {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+  &__header-row {
+  }
+
+  &__row {
+    line-height: 30px;
+    &:nth-of-type(even) {
+      background: #f2f2f2;
+    }
+  }
+}

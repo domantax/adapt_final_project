@@ -72,6 +72,7 @@
     "workbox-webpack-plugin": "3.6.2"
   },
   "dependencies": {
+    "antd": "^3.11.2",
     "history": "^4.7.2",
     "lodash": "^4.17.11",
     "prop-types": "^15.6.2",

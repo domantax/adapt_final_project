@@ -6,7 +6,7 @@ import Dashboard1Form from './Dashboard1Form';
 import List from './List';
 
 const Dashboard1Box1 = () => (
-  <Box>
+  <Box className="box-height">
     <Dashboard1Heading />
     <Dashboard1Form />
     <List />

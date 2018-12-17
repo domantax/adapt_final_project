@@ -9,9 +9,9 @@ const List = props => {
   return (
     <React.Fragment>
       { list && list.length > 0 && (
-        <table>
+        <table className="table">
           <thead>
-            <tr>
+            <tr className="table__header-row">
               <th>Time</th>
               <th>Price({ props.currency })</th>
               <th>Change</th>

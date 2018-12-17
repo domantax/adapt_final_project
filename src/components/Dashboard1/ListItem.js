@@ -40,7 +40,7 @@ const ListItem = props => {
   }
 
   return (
-    <tr>
+    <tr className="table__row">
       <td>{ formattedDate }</td>
       <td>
         { currencySign }
