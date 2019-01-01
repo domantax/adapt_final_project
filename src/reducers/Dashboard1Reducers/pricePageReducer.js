@@ -13,6 +13,7 @@ const pricePageReducer = handleActions(
   {
     [GET_DATA]: (state, action) => ({
       ...state,
+      error: null,
       data: action.payload,
     }),
     [SET_CURRENCY]: (state, action) => ({

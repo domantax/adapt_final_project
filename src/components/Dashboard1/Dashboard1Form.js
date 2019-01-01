@@ -44,7 +44,7 @@ class Dashboard1Form extends Component {
     const { timeInterval, cryptoCurrency, currency } = this.state;
 
     return (
-      <form onSubmit={ this.onSubmit }>
+      <form onSubmit={ this.onSubmit } className="form">
         <label>
           Time interval:
           <Select
@@ -80,7 +80,9 @@ class Dashboard1Form extends Component {
           />
         </label>
 
-        <button type="submit">See price</button>
+        <button className="form__btn" type="submit">
+          See price
+        </button>
       </form>
     );
   }
